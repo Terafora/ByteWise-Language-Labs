@@ -11,8 +11,8 @@ $(document).ready(function() {
                 $('#formResult').text('Thank you for your message!');
                 $('#myForm').trigger("reset");
             },
-            error: function(xhr, status, error) {
-                var errorMessage = xhr.status + ': ' + xhr.statusText
+            error: function(message, status, error) {
+                var errorMessage = message.status + ': ' + message.statusText
                 $('#formResult').text('Error - ' + errorMessage);
             }
         });
