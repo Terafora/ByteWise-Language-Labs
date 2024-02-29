@@ -6,6 +6,13 @@
 #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
 
 
+/* Global Stylings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Lustria', sans-serif;
     font-weight: 400;
@@ -15,8 +22,9 @@ h1, h2, h3, h4, h5, h6{
 
 /* Hero Section */
 main{
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 99vh;
+    width: 100vw;
+    max-width: 100%;
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/mimi-thian-unsplash-hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -27,5 +35,6 @@ main{
     align-items: center;
     color: #fff;
     padding: 0 20px;
+    overflow: hidden;
 }
 
