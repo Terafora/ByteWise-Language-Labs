@@ -25,6 +25,13 @@ h1, h2, h3, h4, h5, h6 {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 20px rgba(2, 2, 0, 0.4);
 }
+
+
+.form-style form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Navbar Stylings */
 
 nav {
@@ -35,7 +42,6 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-
 }
 
 /* Hero Section */
