@@ -44,6 +44,10 @@ nav {
     z-index: 1000;
 }
 
+#action-banner {
+    max-height: 100px;
+}
+
 /* Hero Section */
 main {
     min-height: 99vh;
