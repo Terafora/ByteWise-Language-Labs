@@ -13,15 +13,33 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Lustria', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #333;
 }
 
+.background-effect {
+    background: rgba(255, 255, 255, 0.5);  
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(2, 2, 0, 0.4);
+}
+/* Navbar Stylings */
+
+nav {
+    z-index: 1000;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
 /* Hero Section */
-main{
+main {
     min-height: 99vh;
     width: 100vw;
     max-width: 100%;
