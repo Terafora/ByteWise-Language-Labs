@@ -36,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     z-index: 1000;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 }
 
 .sticky-top {
@@ -66,3 +68,11 @@ main {
     overflow: hidden;
 }
 
+/* Value Section */
+
+.value-images {
+    max-height: 200px;
+    max-width: 200px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+}
