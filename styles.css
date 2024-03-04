@@ -1,9 +1,11 @@
 /* Google Font Imports */
 
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 /* MailChimp Stylings */
 #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+
 
 
 /* Global Stylings */
@@ -20,8 +22,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
 .background-effect {
-    background: rgba(255, 255, 255, 0.5);  
+    background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 20px rgba(2, 2, 0, 0.4);
 }
