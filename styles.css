@@ -66,7 +66,10 @@ main {
     color: #fff;
     padding: 0 20px;
     overflow: hidden;
+    --webkit-box-shadow: inset 0px -42px 43px -11px rgba(0,0,0,0.69); 
+    box-shadow: inset 0px -42px 43px -11px rgba(0,0,0,0.69);
 }
+
 
 /* Value Section */
 
