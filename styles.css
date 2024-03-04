@@ -79,3 +79,17 @@ main {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 }
+
+.offer-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+}
+
+/* Goals Section */
+
+.goal-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #333;
+}
