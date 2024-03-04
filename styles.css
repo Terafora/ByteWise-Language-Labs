@@ -65,7 +65,7 @@ main {
     min-height: 99vh;
     width: 100vw;
     max-width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/mimi-thian-unsplash-hero.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/christina-wocintechchat-com-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,4 +102,11 @@ main {
     font-size: 1.25rem;
     font-weight: 400;
     color: #333;
+}
+
+.goals-img {
+    max-height: 600px;
+    width: auto;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 }
