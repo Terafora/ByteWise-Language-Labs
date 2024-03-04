@@ -38,6 +38,10 @@ p, li {
   flex-direction: column;
 }
 
+.borders {
+    width: 100%;
+}
+
 /* Navbar Stylings */
 
 nav {
@@ -97,6 +101,11 @@ main {
 }
 
 /* Goals Section */
+
+.goals-section {
+    background-color: #d9d9d9;
+    padding: 3rem;
+}
 
 .goal-text {
     font-size: 1.25rem;
