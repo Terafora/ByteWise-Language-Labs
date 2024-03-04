@@ -85,7 +85,16 @@ main {
 }
 
 
+.hero-text {
+    margin-top: 5rem;
+}
+
 /* Value Section */
+
+.value-section {
+    padding: 3rem auto;
+    margin: 8rem auto 5rem auto;
+}
 
 .value-images {
     max-height: 200px;
