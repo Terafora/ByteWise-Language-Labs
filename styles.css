@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
 p, li {
     font-family: 'Roboto', sans-serif;
 }
@@ -90,11 +94,12 @@ main {
 
 main ul {
     font-size: 1.5rem;
+    line-height: 3rem;
 }
 
 
 .hero-text {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 /* Value Section */
@@ -112,9 +117,10 @@ main ul {
 }
 
 .offer-text {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
     color: #333;
+    padding-top: 1.25rem;
 }
 
 /* Goals Section */
