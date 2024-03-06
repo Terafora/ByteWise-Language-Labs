@@ -87,9 +87,15 @@ nav {
 /* Call to Action Banner */
 
 #action-banner {
-    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc107;
+    color: #333;
+    padding: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
+    text-align: center;
 }
 
 /* Hero Section */
