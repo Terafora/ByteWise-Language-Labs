@@ -62,12 +62,12 @@ p, li {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ffc107;
+    background: #0d6efd;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffd147;
+  background: #5b99f6;
 }
 
 /* Navbar Stylings */
@@ -177,7 +177,6 @@ main ul {
 /* Testimonials Section */
 
 #testimonials {
-    background-color: #ffc107;
     min-height: 95vh;
 }
 
