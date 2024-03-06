@@ -166,3 +166,16 @@ main ul {
     width: auto;
     border-radius: 8px;
 }
+
+/* Inquiry Section */
+
+#inquiry {
+    padding: 3rem;
+}
+
+/* Testimonials Section */
+
+.testimonials-img {
+    max-width: 250px;
+    border-radius: 8px;
+}
