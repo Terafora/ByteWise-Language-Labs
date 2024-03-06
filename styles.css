@@ -171,11 +171,27 @@ main ul {
 
 #inquiry {
     padding: 3rem;
+
 }
 
 /* Testimonials Section */
 
+#testimonials {
+    background-color: #ffc107;
+}
+
+.test-card {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
 .testimonials-img {
     max-width: 250px;
     border-radius: 8px;
+}
+
+/* Footer Section */
+
+footer {
+    border-top: 3px solid #333;
 }
