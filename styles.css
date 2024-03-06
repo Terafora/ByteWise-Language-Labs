@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
-/* MailChimp Stylings */
-#mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
-
-
+html {
+    scroll-behavior: smooth;
+    background-color: #d9d9d9;
+}
 
 /* Global Stylings */
 *{
