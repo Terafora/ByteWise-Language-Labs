@@ -74,8 +74,8 @@ p, li {
 
 nav {
     z-index: 1000;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18);
 }
 
 .sticky-top {
@@ -137,8 +137,8 @@ main ul {
 .value-images {
     max-height: 200px;
     max-width: 200px;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18);
 }
 
 .offer-text {
@@ -177,12 +177,21 @@ main ul {
 /* Testimonials Section */
 
 #testimonials {
-    min-height: 95vh;
+    min-height: 108vh;
 }
 
 .test-card {
     background-color: #fff;
     border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18);
+    padding: 2rem;
+    margin: 1rem;
+    text-align: justify;
+    color: #333;
+    min-height: 300px;
+    min-width: 300px;
+    
 }
 
 .testimonials-img {
