@@ -151,7 +151,6 @@ main ul {
 /* Goals Section */
 
 .goals-section {
-    background-color: #d9d9d9;
     padding: 3rem;
 }
 
@@ -186,8 +185,6 @@ main ul {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18);
     padding: 2rem;
-    margin: 1rem;
-    text-align: justify;
     color: #333;
     min-height: 300px;
     min-width: 300px;
