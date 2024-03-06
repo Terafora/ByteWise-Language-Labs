@@ -107,6 +107,7 @@ main ul {
 .value-section {
     padding: 3rem auto;
     margin: 8rem auto 5rem auto;
+    min-height: 70vh;
 }
 
 .value-images {
