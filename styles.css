@@ -242,6 +242,14 @@ footer {
     transform: translatex(0);
 }
 
+.val-item:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.val-item:nth-child(3) {
+    transition-delay: 400ms;
+}
+
 @media(prefers-reduced-motion){
     .hidden {
         transition: none;
