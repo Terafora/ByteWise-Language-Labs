@@ -98,6 +98,7 @@ nav {
 }
 
 /* Hero Section */
+
 main {
     min-height: 99vh;
     width: 100vw;
@@ -129,6 +130,10 @@ main ul {
 
 /* Value Section */
 
+#Offer {
+    padding-top: 100px;
+}
+
 .value-section {
     padding: 3rem auto;
     margin: 8rem auto 5rem auto;
@@ -151,6 +156,10 @@ main ul {
 
 /* Goals Section */
 
+#Achieve {
+    padding-top: 100px;
+}
+
 .goals-section {
     padding: 3rem;
 }
@@ -169,14 +178,13 @@ main ul {
 
 /* Inquiry Section */
 
-#inquiry {
-    padding: 3rem;
-
+#Inquire {
+    padding: 100px;
 }
 
 /* Testimonials Section */
 
-#testimonials {
+#Testimonials {
     min-height: 108vh;
 }
 
