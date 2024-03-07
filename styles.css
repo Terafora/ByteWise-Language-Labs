@@ -226,3 +226,14 @@ main ul {
 footer {
     border-top: 3px solid #333;
 }
+
+/* on scroll animations */
+
+.hidden {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
