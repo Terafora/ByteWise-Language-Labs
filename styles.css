@@ -200,6 +200,7 @@ main ul {
 /* Carousel Stylings */
 
 .carousel-item {
+    height: 100vh;
     transition: opacity 2.6s ease-in-out;
 }
 
