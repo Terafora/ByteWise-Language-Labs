@@ -1,0 +1,14 @@
+{
+  "name": "bytewise-language-labs",
+  "version": "1.0.0",
+  "description": "The ByteWise Language Labs landing page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charlotte Stone",
+  "license": "ISC",
+  "engines": {
+  "node": "20.x"
+}
+}
