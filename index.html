@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>ByteWise Language Labs</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
+  <meta name="description" content="ByteWise Language Labs offers expert English lessons tailored for IT professionals and business leaders. Enhance your career with customized, remote learning." />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <link rel="icon" href="./images/favicon.ico">
@@ -20,9 +20,12 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#Offer">Offer</a>
@@ -43,12 +46,12 @@
 
     <!-- Call To Action Banner -->
 
-    <section id="action-banner" class="bg-warning">
+    <section id="action-banner">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="call-to-action">
-                        <p class="my-2 text-center">Openings available for new students. Take control of your career and <u>Inquire now!</u></p>
+                    <div class="action-banner">
+                        <p class="my-2 text-center">Take Charge of Your Career! Learn English for Tech and Business with ByteWise – Join Today!</p>
                     </div>
                 </div>
             </div>
@@ -56,77 +59,183 @@
     </section>
 
     
-    <!-- Hero Section -->
-    <div id="Home"></div>
+<!-- Hero Section -->
+<div id="Home"></div>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="row gx-5 hidden">
-                    <div class="col-lg-6 my-5">
-                        <h1 class="text-white">Enter the English Speaking World of Tech and Business</h1>
-                        <div class="hero-text">
-                            <h3 class="text-white">Join ByteWise to learn the language skills needed to become an international member of the business and tech community</h3>
-                            <ul class="no-bullets">
-                                <li><i class="fas fa-check"></i> Learn from an experienced professional</li>
-                                <li><i class="fas fa-check"></i> Flexible scheduling</li>
-                                <li><i class="fas fa-check"></i> Remote learning</li>
-                            </ul>
-                        </div>    
-                    </div>
-                    <div class="col-lg-6 rounded background-effect p-5 my-5">
-                        <h2 class="text-white">Get In Contact</h2>
-                        <div class="mb-3">
-                            <form id="myForm" class="form-label" action="https://formspree.io/f/xeqykvqd" method="POST">
-                                <label for="name">Name:</label><br>
-                                <input type="text" id="name" name="name" class="form-control" required><br>
-                                
-                                <label for="email">Email:</label><br>
-                                <input type="email" id="email" name="_replyto" class="form-control" required><br>
-                                
-                                <label for="message">Message:</label><br>
-                                <textarea id="message" name="message" class="form-control" required></textarea><br>
-                                
-                                <input type="submit" value="Submit" class="btn btn-primary text-white btn-lg form-control image">
-                            </form>
-                        </div>
-                        <div id="formResultOne">    
-                        </div>
+<main class="hero">
+    <!-- Video Background -->
+    <div class="video-container">
+        <video 
+            autoplay 
+            muted 
+            loop 
+            playsinline
+        >
+            <source src="https://videos.pexels.com/video-files/8762946/8762946-uhd_2560_1440_25fps.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Masked Overlay and Content -->
+    <div class="container">
+        <div class="row gx-5 align-items-center">
+            <!-- Hero Text -->
+            <div class="col-lg-6 my-5">
+                <h1 class="text-white">
+                    Master English for Tech and Business Success
+                </h1>
+                <div class="hero-text">
+                    <h3 class="text-white">
+                        ByteWise specializes in teaching English for IT and business professionals. Build confidence, master technical language, and thrive in global industries.
+                    </h3>
+                    <ul class="no-bullets">
+                        <li><i class="fas fa-check"></i> Personalized lessons from a seasoned professional</li>
+                        <li><i class="fas fa-check"></i> Flexible scheduling tailored to your needs</li>
+                        <li><i class="fas fa-check"></i> Learn remotely, on your terms</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="col-lg-6 rounded background-effect p-5 my-5">
+                <h2 class="text-white">Take the First Step</h2>
+                <p class="text-white">Ready to level up your career? Reach out and let’s start this journey together!</p>
+                <div class="mb-3">
+                    <form id="myForm" class="form-label" action="https://formspree.io/f/xeqykvqd" method="POST">
+                        <label for="name" class="text-white">Name:</label><br>
+                        <input type="text" id="name" name="name" class="form-control" required><br>
+                        
+                        <label for="email" class="text-white">Email:</label><br>
+                        <input type="email" id="email" name="_replyto" class="form-control" required><br>
+                        
+                        <label for="message" class="text-white">Message:</label><br>
+                        <textarea id="message" name="message" class="form-control" required></textarea><br>
+                        
+                        <input type="submit" value="Submit" class="btn btn-primary text-white btn-lg form-control">
+                    </form>
+                </div>
+                <div id="formResultOne"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- About Section -->
+<section id="About" class="value-section">
+    <div class="container">
+        <h2 class="text-center mb-5 hidden">About Your Teacher</h2>
+        <div class="row align-items-center hidden">
+            <!-- Image Column -->
+            <div class="col-lg-4 text-center mb-4">
+                <img src="./images/CharlotteStone.jpg" alt="Charlotte Stone" class="rounded-3 value-images about-image">
+                <h3 class="mt-4">Charlotte Stone</h3>
+            </div>
+            <!-- Text Column -->
+            <div class="col-lg-8">
+                <div class="about-content">
+                    <p class="offer-text">Charlotte Stone brings together her experience as a software developer and language educator to offer unique, tailored English lessons for IT and business professionals. With a deep understanding of the tech world and a passion for teaching, she empowers learners to communicate with confidence in global industries.</p>
+                    
+                    <h4 class="mt-4">Why Learn with Charlotte?</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="fas fa-laptop-code text-primary me-2"></i>Tech Expertise: A seasoned developer fluent in the language of code and business.</li>
+                        <li class="mb-3"><i class="fas fa-bullseye text-primary me-2"></i>Tailored Lessons: Customized to your career goals for maximum impact.</li>
+                        <li class="mb-3"><i class="fas fa-chart-line text-primary me-2"></i>Proven Success: Trusted by learners worldwide to unlock their potential.</li>
+                    </ul>
+                    
+                    <h4 class="mt-4">A Global Perspective</h4>
+                    <p class="offer-text">Charlotte has taught internationally, helping professionals break language barriers and thrive. Whether you're navigating technical meetings, acing interviews, or pitching big ideas, Charlotte is here to guide you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- What We Offer Section -->
+<section id="Offer" class="value-section">
+    <div class="container">
+        <h2 class="text-center hidden">What We Offer</h2>
+        <div class="row">
+            <div class="col-lg-4 text-center val-item hidden">
+                <div>
+                    <img src="./images/john-schnobrich-unsplash-img2.jpg" alt="Language Lab" class="card-img-top rounded-circle value-images my-5 text-justify"/>
+                    <div>
+                        <h3 class="card-title">Learn English from a Tech and Business Pro</h3>
+                        <p class="card-text offer-text">Learn from a professional with real-world tech and business experience. ByteWise offers specialized English lessons designed to help you stand out in global industries and communicate like a pro.</p>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+            <div class="col-lg-4 text-center val-item hidden">
+                <div>
+                    <img src="./images/christina-wocintechchat-com-unsplashimg1.jpg" alt="Language Lab" class="card-img-top rounded-circle value-images my-5 text-justify"/>
+                    <div>
+                        <h3 class="card-title">Achieve at Your Speed</h3>
+                        <p class="card-text offer-text">Whether you're aiming to ace your next meeting or land that dream job, our tailored lessons are designed to fit your unique pace and goals. No fluff, just the language skills you need to fast-track your success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center val-item hidden">
+                <div>
+                    <img src="./images/chris-montgomery-unsplash-img3.jpg" alt="Language Lab" class="card-img-top rounded-circle value-images my-5 text-justify"/>
+                    <div>
+                        <h3 class="card-title">Learn from Anywhere</h3>
+                        <p class="card-text offer-text">Transform your downtime into productive time. With fully remote lessons, you can learn on your terms—whether you’re at home, in the park, or at your office. Your classroom is wherever you want it to be.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End of What We Offer section -->
 
-    <!-- What We Offer Section -->
-    <section id="Offer" class="value-section">
+<!-- Pricing Section -->
+ 
+    <section id="Pricing" class="pricing-section py-5">
         <div class="container">
-            <h2 class="text-center hidden">What We Offer</h2>
+            <h2 class="text-center mb-5 hidden">Investment in Your Future</h2>
             <div class="row">
-                <div class="col-lg-4 text-center val-item hidden">
-                    <div>
-                        <img src="./images/john-schnobrich-unsplash-img2.jpg" alt="Language Lab" class="card-img-top rounded-circle value-images my-5 text-justify"/>
-                        <div>
-                            <h3 class="card-title">Learn From Experience</h3>
-                            <p class="card-text offer-text">Clear and effective tutoring to meet your goals is provided by a professional who has worked in the tech industry as well as the English language education industry.</p>
+                <!-- One-to-One Premium -->
+                <div class="col-lg-4 mb-4 hidden">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">One-to-One Premium</h3>
+                            <h4 class="display-4 my-4">£45<small class="text-muted">/hour</small></h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Tailored curriculum for tech and business communication</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Flexible scheduling</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>In-depth feedback</li>
+                            </ul>
+                            <a href="#Home" class="btn btn-primary btn-lg mt-3">Start Your Journey</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 text-center val-item hidden">
-                    <div>
-                        <img src="./images/christina-wocintechchat-com-unsplashimg1.jpg" alt="Language Lab" class="card-img-top rounded-circle value-images my-5 text-justify"/>
-                        <div>
-                            <h3 class="card-title">Learn at Your Own Pace</h3>
-                            <p class="card-text offer-text">Learning a language is a journey, but it doesn't need to be overly long. We will work with you to teach you exactly the language that you need to meet your career goals and get to your journey's end faster.</p>
+
+                <!-- Group Learning -->
+                <div class="col-lg-4 mb-4 hidden">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Group Learning</h3>
+                            <h4 class="display-4 my-4">£20<small class="text-muted">/hour</small></h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>4-6 students per group</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Industry-relevant content</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Downloadable resources</li>
+                            </ul>
+                            <a href="#Home" class="btn btn-primary btn-lg mt-3">Join a Group</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 text-center val-item hidden">
-                    <div>
-                        <img src="./images/chris-montgomery-unsplash-img3.jpg" alt="Language Lab" class="card-img-top rounded-circle value-images my-5 text-justify"/>
-                        <div>
-                            <h3 class="card-title">In Your Own Space</h3>
-                            <p class="card-text offer-text">All lessons are delivered online so that you can learn wherever is convenient for you, whether that be at home, in a park or in a quiet office in your down time at work.</p>
+
+                <!-- Intensive Package -->
+                <div class="col-lg-4 mb-4 hidden">
+                    <div class="card h-100 border-primary">
+                        <div class="card-body text-center position-relative">
+                            <span class="badge bg-primary position-absolute top-0 end-0 mt-3 me-3">Best Value</span>
+                            <h3 class="card-title">Intensive Package</h3>
+                            <h4 class="display-4 my-4">£240<small class="text-muted">/package</small></h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>6 one-hour sessions</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Session recordings</li>
+                                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Priority booking</li>
+                            </ul>
+                            <a href="#Home" class="btn btn-primary btn-lg mt-3">Level Up Fast</a>
                         </div>
                     </div>
                 </div>
@@ -140,38 +249,38 @@
 
     <section id="Achieve" class="goals-section bg-primary">
         <div class="container">
-            <h2 class="text-center text-white hidden">What You Can Achieve</h2>
+            <h2 class="text-center text-white hidden">Unlock Your Potential</h2>
             <div class="row my-5 align-items-center test-card hidden">
                 <div class="col-lg-6">
                     <img src="./images/jason-goodman-unsplash.jpg" alt="Our Goals" class="img-fluid goals-img" />
                 </div>
                 <div class="col-lg-6 my-5">
-                    <h3>Master Business Communication Skills</h3>
-                    <p class="goal-text">Enhance your career prospects by mastering English communication in the business and tech industry. Our tailored courses focus on refining your language skills specifically for professional environments, enabling you to effectively collaborate, present, and negotiate with confidence.</p>
+                    <h3>Own the Room with Business Communication</h3>
+                    <p class="goal-text">Step into any boardroom or virtual meeting with confidence. Our courses give you the tools to master professional English for the business and tech industries. Learn to present your ideas with clarity, negotiate with confidence, and collaborate seamlessly with global teams. Your career breakthrough starts here.</p>
                 </div>
             </div>
             <div class="row my-5 align-items-center flex-sm-row-reverse test-card hidden">
                 <div class="col-lg-6">
-                    <img src="./images/headway-unsplash.jpg" alt="" class="img-fluid goals-img">
+                    <img src="./images/headway-unsplash.jpg" alt="Technical Discussions" class="img-fluid goals-img">
                 </div>
                 <div class="col-lg-6 my-5">
-                    <h3>Excel in Technical Discussions</h3>
-                    <p class="goal-text">Elevate your technical discussions and collaborations with our specialized English courses designed for developers and engineers. From coding concepts to project management terminology, we provide comprehensive language training that empowers you to articulate complex ideas, participate in meetings, and contribute meaningfully to your team's success.</p>
+                    <h3>Crush It in Technical Conversations</h3>
+                    <p class="goal-text">Speak the language of innovation in English! Our specialized courses for developers and engineers equip you with the skills to handle complex technical discussions in English—whether you're breaking down a new coding framework, pitching an idea, or leading a project meeting.</p>
                 </div>    
             </div>
             
             <div class="row my-5 align-items-center test-card hidden">
                 <div class="col-lg-6">
-                    <img src="./images/sean-pollock-unsplash.jpg" alt ="" class="img-fluid goals-img">
+                    <img src="./images/sean-pollock-unsplash.jpg" alt="Global Business" class="img-fluid goals-img">
                 </div>
                 <div class="col-lg-6 my-5">
-                    <h3>Navigate Global Business Environments</h3>
-                    <p class="goal-text">Gain a competitive edge in today's global marketplace with our English language courses tailored for developers and engineers. Learn to navigate international business landscapes, engage in cross-cultural interactions, and effectively communicate your ideas and innovations to a diverse audience. Build the language skills necessary to thrive in multinational tech companies and expand your career horizons.</p>
+                    <h3>Thrive in a Global Tech World</h3>
+                    <p class="goal-text">Get ready to succeed on the global stage with English tailored for tech and business. Whether you're engaging with international clients, presenting at conferences, or collaborating with diverse teams, our courses empower you to shine in any cross-cultural or multinational setting.</p>
                 </div>
-            </div>
             </div>
         </div>
     </section>
+    
 
     <img src="./images/Vector2.svg" class="borders">
 
@@ -284,24 +393,44 @@
             </button>
         </div>
     </section>
-    <!-- Test -->
 
     <!-- Footer Section -->
 
-    <footer class="bg-dark text-white">
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="row">
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- Quick Links -->
                 <div class="col-lg-6">
-                    <h5 class="text-white">ByteWise Language Labs</h5>
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#Home">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="mb-2"><a href="#Offer">What We Offer</a></li>
+                        <li class="mb-2"><a href="#Pricing">Pricing</a></li>
+                        <li class="mb-2"><a href="#Achieve">Goals</a></li>
+                        <li class="mb-2"><a href="#Testimonials">Testimonials</a></li>
+                    </ul>
                 </div>
+                <!-- Brand Column -->
                 <div class="col-lg-6">
-                    <h5><a href="#Inquire">Contact Me</a></h5>
-                    <p>&copy; Charlotte Stone</p>
+                    <h5 class="mb-3">ByteWise Language Labs</h5>
+                    <p class="mb-3">Empowering professionals in tech and business with expert language training.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/charlotte-stone-web/" class="me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>  
+                </div>
+            
+            <!-- Copyright -->
+            <div class="row mt-4 pt-3 border-top">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 ByteWise Language Labs. All rights reserved.</p>
                 </div>
             </div>
         </div>
     </footer>
-
 
     <!-- Links to Scripts -->
     <script src="https://kit.fontawesome.com/b30a727321.js" crossorigin="anonymous"></script>
