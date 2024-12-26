@@ -299,7 +299,41 @@ main ul {
 /* Footer Section */
 
 footer {
-    border-top: 3px solid #333;
+    border-top: 3px solid #0d6efd;
+}
+
+footer h5 {
+    font-family: 'Lustria', sans-serif;
+    color: #fff;
+}
+
+footer p, footer li {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer .social-links a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #0d6efd;
+}
+
+footer ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+footer i {
+    color: #0d6efd;
 }
 
 /* on scroll animations */
@@ -329,4 +363,34 @@ footer {
     .hidden {
         transition: none;
     }
+}
+
+/* Pricing Section */
+.pricing-section {
+    background-color: #fff;
+    padding: 5rem 0;
+}
+
+.pricing-section .card {
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pricing-section .card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-section .card-body {
+    padding: 2rem;
+}
+
+.pricing-section .display-4 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.pricing-section small {
+    font-size: 1rem;
+    font-weight: normal;
 }
